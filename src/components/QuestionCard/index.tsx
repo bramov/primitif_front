@@ -21,7 +21,11 @@ const mockedData = [
     }
 ];
 
-export const QuestionCard = ({ handleDelete }) => {
+type Props = {
+    handleDelete: () => void;
+}
+
+export const QuestionCard = ({ handleDelete }: Props) => {
     const [data, setData] = useState(mockedData);
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
 
