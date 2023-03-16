@@ -2,7 +2,7 @@
   "name": "primitif_front",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://bramov.github.io/primitif_front",
+  "homepage": "./",
   "type": "module",
   "scripts": {
     "dev": "vite",
