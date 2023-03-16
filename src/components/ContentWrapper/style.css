@@ -1,0 +1,13 @@
+.wrapper {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.wrapper {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
